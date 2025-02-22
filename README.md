@@ -29,6 +29,33 @@ Example output:
 ('string 3', 6, 12, 'string 4')
 ```
 
+Below is a styled README section for the "Delete Empty Rows Based on First Column" macro:
+
+---
+
+### 2. `DeleteEmptyRowsBasedOnFirstColumn` ✂️
+
+The `DeleteEmptyRowsBasedOnFirstColumn` macro is designed to help you quickly clean up your Excel data by removing any rows where the first cell of your selected range is empty. For instance, consider the following data:
+
+| String A  |           | 5  | 7  |
+|-----------|-----------|----|----|
+|           | String B  | 8  |    |
+| String C  | String D  | 11 | 6  |
+
+In this example, only the second row will be deleted because its first cell is blank.
+
+**How It Works:**
+- **Selection-Based:** Simply select the range you want to process.
+- **Backward Looping:** The macro loops from the bottom row up to avoid skipping any rows during deletion.
+- **Empty Check:** It uses the `Trim` function to ensure that even cells with only spaces are considered empty.
+
+**Usage Instructions:**
+1. Select the data range where you want to remove rows.
+2. Run the macro.
+3. The macro deletes any row within the selection that has an empty first cell.
+
+This macro is a great tool to streamline your data cleaning process and ensure that your dataset only includes rows with valid entries.
+
 ---
 
 ## Future Additions 🔮
