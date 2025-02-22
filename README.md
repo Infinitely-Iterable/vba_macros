@@ -29,10 +29,6 @@ Example output:
 ('string 3', 6, 12, 'string 4')
 ```
 
-Below is a styled README section for the "Delete Empty Rows Based on First Column" macro:
-
----
-
 ### 2. `DeleteEmptyRowsBasedOnFirstColumn` ✂️
 
 The `DeleteEmptyRowsBasedOnFirstColumn` macro is designed to help you quickly clean up your Excel data by removing any rows where the first cell of your selected range is empty. For instance, consider the following data:
